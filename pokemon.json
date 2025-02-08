@@ -1,477 +1,503 @@
 [
-    {
-      "id": 1,
-      "name": "Pikachu",
-      "description": "This Pokémon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while Pikachu sleeps. It occasionally discharges electricity when it is dozy after waking up.",
-      "hp": 60,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Pikachu.png?raw=true",
-      "rarity": "common",
-      "types": ["Electric"],
-      "weakness": "Fighting",
-      "resistance": "Steel",
-      "attacks": [
-        
-        {
-          "id": 1,
-          "name": "Thunder Jolt",
-          "description": "Delivers a powerful electric shock to the opponent.",
-          "power": 50,
-          "accuracy": 100
-          
-        },
-        {
-          "id": 2,
-          "name": "Quick Attack",
-          "description": "This is an almost invisibly fast attack that is certain to strike first.",
-          "power": 60,
-          "accuracy": 90
-          
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": "Raichu"
-    },
-    {
-      "id": 2,
-      "name": "Bulbasaur",
-      "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
-      "hp": 50,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/bulbasaur.png?raw=true",
-      "rarity": "common",
-      "types": ["Grass", "Poison"],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "attacks": [
-        {
-          "id": 3,
-          "name": "Tackle",
-          "description": "A physical attack in which the pokemon charges and slams into the foe with its whole body.",
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "id": 4,
-          "name": "Vine Whip",
-          "description": "The Pokémon uses its cruel whips to strike the opponent.",
-          "power": 45,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": "Ivysaur"
-    },
-    {
-      "id": 3,
-      "name": "Charizard",
-      "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
-      "hp": 120,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Charizard.png?raw=true",
-      "rarity": "rare",
-      "types": ["Fire", "Flying"],
-      "weakness": "Water",
-      "resistance": "Fighting",
-      "attacks": [
-        {
-          "id": 5,
-          "name": "Fire Spin",
-          "description": "Fire Spin inflicts damage and traps the target for 2-5 turns, damaging the target at the end of each turn.",
-          "power": 15,
-          "accuracy": 70
-        },
-        {
-          "id": 6,
-          "name": "Slash",
-          "description": "The target is attacked with a slash of claws or blades.",
-          "power": 70,
-          "accuracy":100
-        }
-      ],
-      "evolvesFrom": "Charmeleon",
-      "evolvesTo": null
-    },
-    {
-      "id": 4,
-      "name": "Blastoise",
-      "description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
-      "hp": 140,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Blastoise.png?raw=true",
-      "rarity": "rare",
-      "types": ["Water"],
-      "weakness": "Electric",
-      "resistance": "Steel",
-      "attacks": [
-        {
-          "id": 7,
-          "name": "Hydro Pump",
-          "description": "Does 10 more damage for each Water Energy attached to this Pokémon.",
-          "power": 110,
-          "accuracy": 80
-        },
-        {
-          "id": 8,
-          "name": "Splash",
-          "description": "This attack does nothing.",
-          "power": 0,
-          "accuracy": 100
-    
-        }
-      ],
-      "evolvesFrom": "Wartortle",
-      "evolvesTo": null
-    },
-    {
-      "id": 5,
-      "name": "Ivysaur",
-      "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs. It unleashes toxic pollen to defeat its opponents.",
-      "hp": 80,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Ivysaur.png?raw=true",
-      "rarity": "uncommon",
-      "types": ["Grass", "Poison"],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "attacks": [
-        {
-          "id": 9,
-          "name": "Razor Leaf",
-          "description": "A Grass-type attack that sends sharp-edged leaves at the target.",
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "id": 4,
-          "name": "Vine Whip",
-          "description": "The Pokémon uses its cruel whips to strike the opponent.",
-          "power": 45,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": "Bulbasaur",
-      "evolvesTo": "Venusaur"
-    },
-    {
-      "id": 6,
-      "name": "Venusaur",
-      "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
-      "hp": 160,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Venusaur.png?raw=true",
-      "rarity": "rare",
-      "types": ["Grass", "Poison"],
-      "weakness": "Fire",
-      "resistance": "Water",
-      "attacks": [
-        {
-          "id": 10,
-          "name": "Solar Beam",
-          "description": "A 2-turn move that blasts the foe with absorbed energy in the 2nd turn. ",
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "id": 11,
-          "name": "Petal Dance",
-          "description": "The pokemon scatters petals to harm the opponent.",
-          "power": 120,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": "Ivysaur",
-      "evolvesTo": null
-    },
-    {
-      "id": 7,
-      "name": "Charmeleon",
-      "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
-      "hp": 80,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Charmeleon.png?raw=true",
-      "rarity": "uncommon",
-      "types": ["Fire"],
-      "weakness": "Water",
-      "resistance": "Fighting",
-      "attacks": [
-        {
-          "id": 12,
-          "name": "Scratch",
-          "description": "Scratches the target with sharp claws.",
-          "power": 10,
-          "accuracy": 100
-        },
-        {
-          "id": 13,
-          "name": "Ember",
-          "description": "A weak fire attack that may inflict a burn.",
-          "power": 45,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": "Charmander",
-      "evolvesTo": "Charizard"
-    },
-    {
-      "id": 8,
-      "name": "Charmander",
-      "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
-      "hp": 50,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Charmander.png?raw=true",
-      "rarity": "common",
-      "types": ["Fire"],
-      "weakness": "Water",
-      "resistance": "Fighting",
-      "attacks": [
-        {
-          "id": 12,
-          "name": "Scratch",
-          "description": "Scratches the target with sharp claws.",
-          "power": 10,
-          "accuracy": 100
-        },
-        {
-          "id": 13,
-          "name": "Ember",
-          "description": "A weak fire attack that may inflict a burn.",
-          "power": 45,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": "Charmeleon"
-    },
-    {
-      "id": 9,
-      "name": "Wartortle",
-      "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
-      "hp": 80,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Wartortle.png?raw=true",
-      "rarity": "uncommon",
-      "types": ["Water"],
-      "weakness": "Electric",
-      "resistance": "Steel",
-      "attacks": [
-        {
-          "id": 14,
-          "name": "Water Gun",
-         "description": "The target is blasted with a forceful shot of water. Target.",
-         "power": 40,
-         "accuracy": 100
-        },
-        {
-          "id": 15,
-          "name": "Bite",
-          "description": "The foe is bitten with viciously sharp fangs. It may make the target flinch.",
-          "power": 60,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": "Squirtle",
-      "evolvesTo": "Blastoise"
-    },
-    {
-      "id": 10,
-      "name": "Squirtle",
-      "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
-      "hp": 50,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Squirtle.png?raw=true",
-      "rarity": "common",
-      "types": ["Water"],
-      "weakness": "Electric",
-      "resistance": "Steel",
-      "attacks": [
-        {
-          "id": 3,
-          "name": "Tackle",
-          "description": "A physical attack in which the pokemon charges and slams into the foe with its whole body.",
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "id": 14,
-          "name": "Water Gun",
-         "description": "The target is blasted with a forceful shot of water. Target.",
-         "power": 40,
-         "accuracy": 100
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": "Wartortle"
-    },
-    {
-      "id": 11,
-      "name": "Raichu",
-      "description": "If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon's nest.",
-      "hp": 90,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Raichu.png?raw=true",
-      "rarity": "rare",
-      "types": ["Electric"],
-      "weakness": "Fighting",
-      "resistance": "Steel",
-      "attacks": [
-        {
-          "id": 16,
-          "name": "Thunderbolt",
-          "description": "A strong electrical attack that may also leave the foe paralyzed.",
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "id": 2,
-          "name": "Quick Attack",
-          "description": "This is an almost invisibly fast attack that is certain to strike first.",
-          "power": 60,
-          "accuracy": 90
-          
-        }
-      ],
-      "evolvesFrom": "Pikachu",
-      "evolvesTo": null
-    },
-    {
-      "id": 12,
-      "name": "Mew",
-      "description": "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
-      "hp": 100,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Mew.png?raw=true",
-      "rarity": "legendary",
-      "types": ["Psychic"],
-      "weakness": "Darkness",
-      "resistance": "Fighting",
-      "attacks": [
-        {
-          "id": 17,
-          "name": "Psywave",
-          "description": "A wave of psychic powers that does a lot of damage.",
-          "power": 150,
-          "accuracy": 100
-        },
-        {
-          "id": 18,
-          "name": "Miracle Power",
-          "description": "Mystical Power inflicts damage and raises either the user's offensive stats or defensive stats.",
-          "power": 180,
-          "accuracy": 70
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": null
-    },
-    {
-      "id": 13,
-      "name": "Mewtwo",
-      "description": "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
-      "hp": 120,
-      "isActive": true,
-      "releaseDate": "1996-02-27",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Mewtwo.png?raw=true",
-      "rarity": "legendary",
-      "types": ["Psychic"],
-      "weakness": "Darkness",
-      "resistance": "Fighting",
-      "attacks": [
-        {
-          "id": 19,
-          "name": "Psychic",
-          "description": "The target is hit with a strong telekinetic force to inflict damage.",
-          "power": 90,
-          "accuracy": 100
-    
-        },
-        {
-          "id": 20,
-          "name": "Psyburn",
-          "description": "The pokemon brings down a powerful psychic beam on his original position, dealing damage to enemies around each point of impact, leaving them unable to act for 1s and decreasing their Defense by 20% for 3 turns.",
-          "power": 120,
-          "accuracy": 70
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": null
-    },
-    {
-      "id": 14,
-      "name": "Lugia",
-      "description": "Lugia's wings pack devastating power—a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
-      "hp": 140,
-      "isActive": true,
-      "releaseDate": "1999-05-14",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Lugia.png?raw=true",
-      "rarity": "legendary",
-      "types": ["Psychic", "Flying"],
-      "weakness": "Electric",
-      "resistance": "Fighting",
-      "attacks": [
-        {
-          "id": 21,
-          "name": "Aeroblast",
-          "description": "A vortex of air is shot at the target to inflict damage.",
-          "power": 100,
-          "accuracy": 95
-        },
-        {
-          "id": 22,
-          "name": "Recover",
-          "description": "Recover restores up to 50% of the user's maximum HP.",
-          "power": 0,
-          "accuracy": 100
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": null
-    },
-    {
-      "id": 15,
-      "name": "Ho-Oh",
-      "description": "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
-      "hp": 160,
-      "isActive": true,
-      "releaseDate": "1999-05-14",
-      "imageUrl": "https://github.com/LarsVerheyden/Terminal-App/blob/main/Pokemon%20API/pokemon%20images/Ho-oh.png?raw=true",
-      "rarity": "legendary",
-      "types": ["Fire", "Flying"],
-      "weakness": "Water",
-      "resistance": "Grass",
-      "attacks": [
-        {
-          "id": 23,
-          "name": "Sacred Fire",
-          "description": " The foe is razed with a mystical fire of great intensity. It may also leave a burn.",
-          "power": 120,
-          "accuracy": 95
-        },
-        {
-          "id": 24,
-          "name": "Rainbow Burn",
-          "description": "The opponent gets hit with a rainbow colored flame that does a lot of damage.",
-          "power": 100,
-          "accuracy": 80
-        }
-      ],
-      "evolvesFrom": null,
-      "evolvesTo": null
-    }
-    
-    
-    
-  ]
-  
+  {
+    "id": 1,
+    "name": "Pikachu",
+    "description": "This Pokémon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while Pikachu sleeps. It occasionally discharges electricity when it is dozy after waking up.",
+    "hp": 60,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Pikachu.png?raw=true",
+    "rarity": "common",
+    "types": [
+      "Electric"
+    ],
+    "weakness": "Fighting",
+    "resistance": "Steel",
+    "attacks": [
+      {
+        "id": 1,
+        "name": "Thunder Jolt",
+        "description": "Delivers a powerful electric shock to the opponent.",
+        "power": 50,
+        "accuracy": 100
+      },
+      {
+        "id": 2,
+        "name": "Quick Attack",
+        "description": "This is an almost invisibly fast attack that is certain to strike first.",
+        "power": 60,
+        "accuracy": 90
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": "Raichu"
+  },
+  {
+    "id": 2,
+    "name": "Bulbasaur",
+    "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+    "hp": 50,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/bulbasaur.png?raw=true",
+    "rarity": "common",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "weakness": "Fire",
+    "resistance": "Water",
+    "attacks": [
+      {
+        "id": 3,
+        "name": "Tackle",
+        "description": "A physical attack in which the pokemon charges and slams into the foe with its whole body.",
+        "power": 40,
+        "accuracy": 100
+      },
+      {
+        "id": 4,
+        "name": "Vine Whip",
+        "description": "The Pokémon uses its cruel whips to strike the opponent.",
+        "power": 45,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": "Ivysaur"
+  },
+  {
+    "id": 3,
+    "name": "Charizard",
+    "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    "hp": 120,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Charizard.png?raw=true",
+    "rarity": "rare",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "weakness": "Water",
+    "resistance": "Fighting",
+    "attacks": [
+      {
+        "id": 5,
+        "name": "Fire Spin",
+        "description": "Fire Spin inflicts damage and traps the target for 2-5 turns, damaging the target at the end of each turn.",
+        "power": 15,
+        "accuracy": 70
+      },
+      {
+        "id": 6,
+        "name": "Slash",
+        "description": "The target is attacked with a slash of claws or blades.",
+        "power": 70,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": "Charmeleon",
+    "evolvesTo": null
+  },
+  {
+    "id": 4,
+    "name": "Blastoise",
+    "description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+    "hp": 140,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Blastoise.png?raw=true",
+    "rarity": "rare",
+    "types": [
+      "Water"
+    ],
+    "weakness": "Electric",
+    "resistance": "Steel",
+    "attacks": [
+      {
+        "id": 7,
+        "name": "Hydro Pump",
+        "description": "Does 10 more damage for each Water Energy attached to this Pokémon.",
+        "power": 110,
+        "accuracy": 80
+      },
+      {
+        "id": 8,
+        "name": "Splash",
+        "description": "This attack does nothing.",
+        "power": 0,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": "Wartortle",
+    "evolvesTo": null
+  },
+  {
+    "id": 5,
+    "name": "Ivysaur",
+    "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs. It unleashes toxic pollen to defeat its opponents.",
+    "hp": 80,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Ivysaur.png?raw=true",
+    "rarity": "uncommon",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "weakness": "Fire",
+    "resistance": "Water",
+    "attacks": [
+      {
+        "id": 9,
+        "name": "Razor Leaf",
+        "description": "A Grass-type attack that sends sharp-edged leaves at the target.",
+        "power": 60,
+        "accuracy": 100
+      },
+      {
+        "id": 4,
+        "name": "Vine Whip",
+        "description": "The Pokémon uses its cruel whips to strike the opponent.",
+        "power": 45,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": "Bulbasaur",
+    "evolvesTo": "Venusaur"
+  },
+  {
+    "id": 6,
+    "name": "Venusaur",
+    "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+    "hp": 160,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Venusaur.png?raw=true",
+    "rarity": "rare",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "weakness": "Fire",
+    "resistance": "Water",
+    "attacks": [
+      {
+        "id": 10,
+        "name": "Solar Beam",
+        "description": "A 2-turn move that blasts the foe with absorbed energy in the 2nd turn. ",
+        "power": 120,
+        "accuracy": 100
+      },
+      {
+        "id": 11,
+        "name": "Petal Dance",
+        "description": "The pokemon scatters petals to harm the opponent.",
+        "power": 120,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": "Ivysaur",
+    "evolvesTo": null
+  },
+  {
+    "id": 7,
+    "name": "Charmeleon",
+    "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+    "hp": 80,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Charmeleon.png?raw=true",
+    "rarity": "uncommon",
+    "types": [
+      "Fire"
+    ],
+    "weakness": "Water",
+    "resistance": "Fighting",
+    "attacks": [
+      {
+        "id": 12,
+        "name": "Scratch",
+        "description": "Scratches the target with sharp claws.",
+        "power": 10,
+        "accuracy": 100
+      },
+      {
+        "id": 13,
+        "name": "Ember",
+        "description": "A weak fire attack that may inflict a burn.",
+        "power": 45,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": "Charmander",
+    "evolvesTo": "Charizard"
+  },
+  {
+    "id": 8,
+    "name": "Charmander",
+    "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+    "hp": 50,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Charmander.png?raw=true",
+    "rarity": "common",
+    "types": [
+      "Fire"
+    ],
+    "weakness": "Water",
+    "resistance": "Fighting",
+    "attacks": [
+      {
+        "id": 12,
+        "name": "Scratch",
+        "description": "Scratches the target with sharp claws.",
+        "power": 10,
+        "accuracy": 100
+      },
+      {
+        "id": 13,
+        "name": "Ember",
+        "description": "A weak fire attack that may inflict a burn.",
+        "power": 45,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": "Charmeleon"
+  },
+  {
+    "id": 9,
+    "name": "Wartortle",
+    "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+    "hp": 80,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Wartortle.png?raw=true",
+    "rarity": "uncommon",
+    "types": [
+      "Water"
+    ],
+    "weakness": "Electric",
+    "resistance": "Steel",
+    "attacks": [
+      {
+        "id": 14,
+        "name": "Water Gun",
+        "description": "The target is blasted with a forceful shot of water. Target.",
+        "power": 40,
+        "accuracy": 100
+      },
+      {
+        "id": 15,
+        "name": "Bite",
+        "description": "The foe is bitten with viciously sharp fangs. It may make the target flinch.",
+        "power": 60,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": "Squirtle",
+    "evolvesTo": "Blastoise"
+  },
+  {
+    "id": 10,
+    "name": "Squirtle",
+    "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+    "hp": 50,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Squirtle.png?raw=true",
+    "rarity": "common",
+    "types": [
+      "Water"
+    ],
+    "weakness": "Electric",
+    "resistance": "Steel",
+    "attacks": [
+      {
+        "id": 3,
+        "name": "Tackle",
+        "description": "A physical attack in which the pokemon charges and slams into the foe with its whole body.",
+        "power": 40,
+        "accuracy": 100
+      },
+      {
+        "id": 14,
+        "name": "Water Gun",
+        "description": "The target is blasted with a forceful shot of water. Target.",
+        "power": 40,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": "Wartortle"
+  },
+  {
+    "id": 11,
+    "name": "Raichu",
+    "description": "If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon's nest.",
+    "hp": 90,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Raichu.png?raw=true",
+    "rarity": "rare",
+    "types": [
+      "Electric"
+    ],
+    "weakness": "Fighting",
+    "resistance": "Steel",
+    "attacks": [
+      {
+        "id": 16,
+        "name": "Thunderbolt",
+        "description": "A strong electrical attack that may also leave the foe paralyzed.",
+        "power": 90,
+        "accuracy": 100
+      },
+      {
+        "id": 2,
+        "name": "Quick Attack",
+        "description": "This is an almost invisibly fast attack that is certain to strike first.",
+        "power": 60,
+        "accuracy": 90
+      }
+    ],
+    "evolvesFrom": "Pikachu",
+    "evolvesTo": null
+  },
+  {
+    "id": 12,
+    "name": "Mew",
+    "description": "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
+    "hp": 100,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Mew.png?raw=true",
+    "rarity": "legendary",
+    "types": [
+      "Psychic"
+    ],
+    "weakness": "Darkness",
+    "resistance": "Fighting",
+    "attacks": [
+      {
+        "id": 17,
+        "name": "Psywave",
+        "description": "A wave of psychic powers that does a lot of damage.",
+        "power": 150,
+        "accuracy": 100
+      },
+      {
+        "id": 18,
+        "name": "Miracle Power",
+        "description": "Mystical Power inflicts damage and raises either the user's offensive stats or defensive stats.",
+        "power": 180,
+        "accuracy": 70
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": null
+  },
+  {
+    "id": 13,
+    "name": "Mewtwo",
+    "description": "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
+    "hp": 120,
+    "isActive": true,
+    "releaseDate": "1996-02-27",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Mewtwo.png?raw=true",
+    "rarity": "legendary",
+    "types": [
+      "Psychic"
+    ],
+    "weakness": "Darkness",
+    "resistance": "Fighting",
+    "attacks": [
+      {
+        "id": 19,
+        "name": "Psychic",
+        "description": "The target is hit with a strong telekinetic force to inflict damage.",
+        "power": 90,
+        "accuracy": 100
+      },
+      {
+        "id": 20,
+        "name": "Psyburn",
+        "description": "The pokemon brings down a powerful psychic beam on his original position, dealing damage to enemies around each point of impact, leaving them unable to act for 1s and decreasing their Defense by 20% for 3 turns.",
+        "power": 120,
+        "accuracy": 70
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": null
+  },
+  {
+    "id": 14,
+    "name": "Lugia",
+    "description": "Lugia's wings pack devastating power—a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
+    "hp": 140,
+    "isActive": true,
+    "releaseDate": "1999-05-14",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Lugia.png?raw=true",
+    "rarity": "legendary",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "weakness": "Electric",
+    "resistance": "Fighting",
+    "attacks": [
+      {
+        "id": 21,
+        "name": "Aeroblast",
+        "description": "A vortex of air is shot at the target to inflict damage.",
+        "power": 100,
+        "accuracy": 95
+      },
+      {
+        "id": 22,
+        "name": "Recover",
+        "description": "Recover restores up to 50% of the user's maximum HP.",
+        "power": 0,
+        "accuracy": 100
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": null
+  },
+  {
+    "id": 15,
+    "name": "Ho-Oh",
+    "description": "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
+    "hp": 160,
+    "isActive": true,
+    "releaseDate": "1999-05-14",
+    "imageUrl": "https://github.com/LarsVerheyden/Project-JSON/blob/main/pokemon%20images/Ho-oh.png?raw=true",
+    "rarity": "legendary",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "weakness": "Water",
+    "resistance": "Grass",
+    "attacks": [
+      {
+        "id": 23,
+        "name": "Sacred Fire",
+        "description": " The foe is razed with a mystical fire of great intensity. It may also leave a burn.",
+        "power": 120,
+        "accuracy": 95
+      },
+      {
+        "id": 24,
+        "name": "Rainbow Burn",
+        "description": "The opponent gets hit with a rainbow colored flame that does a lot of damage.",
+        "power": 100,
+        "accuracy": 80
+      }
+    ],
+    "evolvesFrom": null,
+    "evolvesTo": null
+  }
+]
